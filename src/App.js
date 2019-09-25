@@ -1,11 +1,12 @@
 import React from 'react';
 import MetronomeContainer from './container/MetronomeContainer.js';
-import './App.css';
 
 function App() {
   return (
+    <div className="app-container">
+    <h1>Metronome</h1>
     <MetronomeContainer/>
-
+    </div>
   );
 }
 

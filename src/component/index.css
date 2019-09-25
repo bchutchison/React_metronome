@@ -1,0 +1,39 @@
+body {
+  margin: 30px 30px;
+}
+
+.m-container {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 6px 6px;
+  box-shadow: 5px 5px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  margin: 5px;
+}
+
+select {
+  width: 100px;
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+
+.slider-box {
+  width: 80%;
+}
+
+#slider {
+  width: 100%;
+}
+
+label {
+  font-weight: 800;
+  color: darkblue;
+}
