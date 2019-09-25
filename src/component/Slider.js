@@ -1,13 +1,17 @@
 import React from 'react';
 
-const Slider = () => {
+const Slider = ({bpm, min, max, sliderChange}) => {
+
+   const handleSliderInput = ({target: {value}}) => {
+     sliderChange(value)
+   }
+
    return(
      <div className="slider-box">
-       <label for="slider"></label>
-       <input type="range" min="40" max="200" id="slider" />
+       <label for="slider">{bpm}bpm</label>
+       <input onChange={handleSliderInput} type="range" min={min} max={max} id="slider" />
      </div>
    )
-
 }
 
 export default Slider;
