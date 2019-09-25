@@ -8,7 +8,7 @@ const Slider = ({bpm, min, max, sliderChange}) => {
 
    return(
      <div className="slider-box">
-       <label for="slider">{bpm}bpm</label>
+       <label htmlFor="slider">{bpm}bpm</label>
        <input onChange={handleSliderInput} type="range" min={min} max={max} id="slider" />
      </div>
    )
